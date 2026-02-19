@@ -3,7 +3,7 @@
 This repository contains the source code for my mods
 Downloads are available on VS ModDB.
 
--------
+--------
 
 I've wanted to learn this sort of stuff for a long time. This game peaked my interest, so I have to get into it.
 
@@ -12,3 +12,32 @@ Now that I've released a "functional" version of Shrub Overhaul which is a very 
 
 My next steps will be to learn visual studio, reading documentations and making the mod happen in professional language.
 I realize that I'm a complete noob to this, so I'll be realistic in my approach and make sure to test everything thoroughly. 
+
+--------
+
+Context on runtime injection mod Shrub Overhaul 1.0.4:
+
+I've sticked my head into some code before, but this time I've actually made some real change.
+
+In essence, I've reverse engineered worldgen behaviour, decompiled code, scanned (a LOT) and located the correct targets, tested a massive amount of broken builds,
+rummaged through logs finding many failures, identified crashes, controlled my scope and built the architecture. 
+
+I wouldn't have made this much progress without AI help. I'm using it as a learning tool and I avoid copy+paste. I want to understand what it's all about.
+It all comes down to using a tool effectively I guess.
+
+--------
+
+Next version: implementing tree branch behaviour.
+
+--------
+
+Strata Overhaul concept:
+
+Before getting into all this code, I wrote a .json patch mod for rock strata. Even though it strays apart from the realism of what dev wants,
+I believe more users would appreciate what I have to contribute. This mod is based on my idea of how rock strata should behave and is not realistic by any means.
+
+Real world "rock strata" isnt easy to reproduce in a game like this, and I am going to have to spend a lot more time considering where I want to bring it. 
+For now, the concept is thicker metamorphic and sedimentary layers and lower igneous layers (except for basalt province) as to make the game a bit more enjoyable.
+Many users don't have endless amounts of time and energy for travelling tens and hundreds of hours to achieve results. 
+
+--------
