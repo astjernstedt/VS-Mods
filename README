@@ -20,7 +20,8 @@ Context on runtime injection mod Shrub Overhaul 1.0.4:
 I've sticked my head into some code before, but this time I've actually made some real change.
 
 In essence, I've reverse engineered worldgen behaviour, decompiled code, scanned (a LOT) and located the correct targets, tested a massive amount of broken builds,
-rummaged through logs finding many failures, identified crashes, controlled my scope and built the architecture. 
+rummaged through logs finding many failures, 
+identified crashes, controlled my scope and built the architecture. 
 
 I wouldn't have made this much progress without AI help. I'm using it as a learning tool and I avoid copy+paste. I want to understand what it's all about.
 It all comes down to using a tool effectively I guess.
